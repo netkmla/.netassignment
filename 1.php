@@ -1,3 +1,4 @@
+<?php header("Content-type: 1/css"); ?>
 
 
 

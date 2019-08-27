@@ -1,3 +1,5 @@
+<?php header("Content-type: design/css"); ?>
+
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
