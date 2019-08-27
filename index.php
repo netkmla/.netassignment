@@ -1,15 +1,22 @@
-<?php
-    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-    $server = $url["host"];
-    $username = $url["user"];
-    $password = $url["pass"];
-    $db = substr($url["path"], 1);
-    $mysqli=mysqli_connect($server, $username, $password, $db);
-    
-    echo $server;
-    echo "<br>";
-    echo $username;
-    echo "<br>";
-    echo $password;
-    echo "<br>";
-?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML 사이트 기본 틀</title>
+    </head>
+
+    <body>
+            <h1>테스트 사이트 입니다</h2>
+            
+            <form action = "login_sample.php" method="POST">
+                    <p>이름</p>
+                    <input type="text" name="name">
+                    <p>아이디</p>
+                    <input type="text" name="id">
+                    <p>비밀번호</p>
+                    <input type="number" name="pw">
+                    <button type="submit" value="계산하기">가입하기</button>
+            </form>
+    </body>
+
+</html> 
