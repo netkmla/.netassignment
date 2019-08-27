@@ -4,8 +4,8 @@
 <head>
   <title> 노건호 지원서</title>
   <meta charset="utf-8">
-  @import url("design.css");
-  @import url("1.css");
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="design.css">
   <style>
     h1 {
       color: #474747;
