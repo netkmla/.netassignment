@@ -2,21 +2,34 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>HTML 사이트 기본 틀</title>
+        <title>로그인 예제</title>
     </head>
 
     <body>
-            <h1>테스트 사이트 입니다</h2>
-            
-            <form action = "login_sample.php" method="POST">
-                    <p>이름</p>
-                    <input type="text" name="name">
-                    <p>아이디</p>
-                    <input type="text" name="id">
-                    <p>비밀번호</p>
-                    <input type="number" name="pw">
-                    <button type="submit" value="계산하기">가입하기</button>
-            </form>
+            <h2>닷넷 2차 선발용 로그인 웹 템플릿<h2>
+            <?php
+				session_start();
+
+				if(!isset($_SESSION['id']) || !isset($_SESSION['name']))
+				{
+					echo "<meta http-equiv='refresh' content='0;url=login.html'>";
+					exit;
+				}
+				$id = $_SESSION['id'];
+				$name = $_SESSION['name'];
+
+				echo "<p>안녕하세요. $name($id)님</p>";
+
+				//
+				//contests 여기다 추가하세요
+				//
+
+				echo "<p><a href='logout.php'>로그아웃</a></p>";
+			?>
+        	<a href="signup.html" target="right">
+				<button>회원가입 하러가기</button>
+			</a>
+			
     </body>
 
 </html> 
