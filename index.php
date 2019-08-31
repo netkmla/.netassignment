@@ -29,6 +29,9 @@
         	<a href="signup.html" target="right">
 				<button>회원가입 하러가기</button>
 			</a>
+		    	<a href="https://kmlakmla.herokuapp.com/" target="right">
+				<button>just chat</button>
+			</a>
 			
     </body>
 
