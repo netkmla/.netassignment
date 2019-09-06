@@ -35,9 +35,8 @@
 		    	<a href="https://kmlakmla.herokuapp.com" target="right">
 					<button>just chat</button>
 				</a>
-			<form action="https://kmlakmla.herokuapp.com?id=<?php echo $id;?>" method="post">
-				<input type="text" name="id" value="$id">
-				<input type="button" value="Go chat">
+			<form method="POST" action="https://kmlakmla.herokuapp.com?id=<?php echo $id;?>">
+				
 			</form>
 				
     </body>
