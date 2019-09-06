@@ -37,7 +37,7 @@
 				</a>
 			<form action="https://kmlakmla.herokuapp.com" id="frm" target="_blank" hod="post">
 				<div>id: <br/><input type="text" name="id" value="<? echo $id; ?>"></div>
- 			    <div><input type="button" id="btn" value="전송"></div>
+ 			    <div><input type="submit" value="전송"></div>
 
 			</form>
 				
