@@ -35,7 +35,7 @@
 		    	<a href="https://kmlakmla.herokuapp.com" target="right">
 					<button>just chat</button>
 				</a>
-			<form action="https://kmlakmla.herokuapp.com" method="post">
+			<form action="https://kmlakmla.herokuapp.com" id="frm" target="_blank" hod="post">
 				<div>id: <br/><input type="text" name="id" value="<? echo $id; ?>"></div>
  			    <div><input type="button" id="btn" value="전송"></div>
 
