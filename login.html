@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="1.css">
-        <link rel="stylesheet" href="design.css">
-        <meta charset="utf-8" />
-    </head>
 
-    <body>
-        <form method='POST' action='login_check.php'>
-            <table>
-                <tr>
-                    <td>아이디..</td>
-                    <td><input type='text' name='id' tabindex='1'/></td>
-                    <td rowspan='2'><input type='submit' tabindex='3' value='로그인' style='height:50px'/></td>
-                </tr>
-                <tr>
-                    <td>비밀번호</td>
-                    <td><input type='number' name='pw' tabindex='2'/></td>
-                </tr>
-            </table>
-        
-        </form>
-        <a href="signup.html" target="right">
-            <button>회원가입 __ 하러가기</button>
-        </a>
-    </body>
+<head>
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="design.css">
+  <meta charset="utf-8" />
+
+<style media="screen">
+  table.type04 {
+
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    margin: 20px 10px;
+    border-collapse: collapse;
+  }
+
+  table.type04 th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+  }
+
+  table.type04 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+  }
+  </style>
+</head>
+
+<body>
+  <form method='POST' action='login_check.php'>
+    <table>
+      <tr>
+        <td>아이디..</td>
+        <td><input type='text' name='id' tabindex='1' /></td>
+        <td rowspan='2'><input type='submit' tabindex='3' value='로그인' style='height:50px' /></td>
+      </tr>
+      <tr>
+        <td>비밀번호</td>
+        <td><input type='number' name='pw' tabindex='2' /></td>
+      </tr>
+    </table>
+
+  </form>
+  <a href="signup.html" target="right">
+    <button>회원가입 __ 하러가기</button>
+  </a>
+</body>
+
 </html>
-
