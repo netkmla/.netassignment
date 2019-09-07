@@ -8,35 +8,12 @@
   <meta charset="utf-8" />
 
 <style media="screen">
-  table.type04 {
 
-    border-spacing: 1px;
-    text-align: left;
-    line-height: 1.5;
-    border-top: 1px solid #ccc;
-    margin: 20px 10px;
-    border-collapse: collapse;
-  }
-
-  table.type04 th {
-    width: 150px;
-    padding: 10px;
-    font-weight: bold;
-    vertical-align: top;
-    border-bottom: 1px solid #ccc;
-  }
-
-  table.type04 td {
-    width: 350px;
-    padding: 10px;
-    vertical-align: top;
-    border-bottom: 1px solid #ccc;
-  }
   </style>
 </head>
 
 <body>
-  <form method='POST' action='login_check.php'>
+  <form method='POST' action='login_check.php' class="general">
     <table class="type04">
       <tr>
         <td>아이디..</td>
@@ -50,9 +27,12 @@
     </table>
 
   </form>
-  <a href="signup.html" target="right">
-    <button>회원가입 __ 하러가기</button>
-  </a>
+  <div class="general">
+    <a href="signup.html" target="right">
+      <text class="signup_text">회원가입 __ 하러가기<text>
+    </a>
+  </div>
+
 </body>
 
 </html>

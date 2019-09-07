@@ -2,7 +2,6 @@
 
 
 .table{
-
   border-collapse:collapse;
   padding:10px;
 }
@@ -43,10 +42,7 @@
   background: rgba(29,139,21,0.5);
   height: auto;
 }
-.body{
-  background:#A748FF;
-  opacity: 0.8;
-}
+
 .passage{
   font-size: 20 px;
   padding-left: 20%;
