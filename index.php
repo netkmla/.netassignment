@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>로그인 예제</title>
+		<title>로그인</title>
+		<link rel="stylesheet" href="1.css">
+ 		<link rel="stylesheet" href="design.css">
     </head>
 
     <body>
@@ -17,17 +19,14 @@
 				}
 				$id = $_SESSION['id'];
 				$name = $_SESSION['name'];
-
-				echo "<p>안녕하세요. $name($id)님</p>";
-
 				//
 				//contests 여기다 추가하세요
 				//
-
-				echo "<p><a href='logout.php'>로그아웃</a></p>";
-
-
 			?>
+	
+			<p class="general">안녕하세요. <? echo $id; ?>님</p>
+			<p><a href='logout.php'>로그아웃</a></p>
+
         	<a href="signup.html" target="right">
 				<button>회원가입 하러가기</button>
 			</a>
