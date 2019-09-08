@@ -274,3 +274,9 @@ body{
 .signup_text text:hover{
   border-color: gray;
 }
+.horizontal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

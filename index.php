@@ -24,28 +24,30 @@
 				//
 			?>
 			<p>
-			
+
 			</p>
 
-			<div class="general">
-			<p class="general">안녕하세요. <? echo $id; ?>님</p>
-			<p><a href='logout.php'>로그아웃</a></p>
+      <div class="general">
+        <p class="general">안녕하세요.
+          <? echo $id; ?>님</p>
+        <p><a href='logout.php'>로그아웃</a></p>
 
-        	<a href="signup.html" target="right">
-				<button>회원가입 하러가기</button>
-			</a>
+        <a href="signup.html" target="right">
+          <button>회원가입 하러가기</button>
+        </a>
 
-		    	<a href="https://kmlakmla.herokuapp.com" target="right">
-					<button>익명</button>
-				</a>
-			<form name="frm" action="https://kmlakmla.herokuapp.com" target="_blank" method="GET">
-				<div><input type="text" name='id' value="<? echo $id; ?>"> <input type="submit" value="chat"> </div>
- 			    <div></div>
+        <a href="https://kmlakmla.herokuapp.com" target="right">
+          <button>익명</button>
+        </a>
+      </div>
+      <div class="horizontal">
+        <form class="horizontal" name="frm" action="https://kmlakmla.herokuapp.com" target="_blank" method="GET">
+          <div><input type="text" name='id' value="<? echo $id; ?>">  </div>
+          <div> <input type="submit" value="chat"> </div>
+        </form>
+      </div>
 
-			</form>
-			</div>
-			
-				
+
     </body>
 
-</html> 
+</html>
