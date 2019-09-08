@@ -274,6 +274,7 @@ body{
 .signup_text text:hover{
   border-color: gray;
 }
+
 .horizontal{
   display: flex;
   flex-direction: row;
