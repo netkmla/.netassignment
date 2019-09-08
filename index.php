@@ -39,8 +39,8 @@
 					<button>익명</button>
 				</a>
 			<form name="frm" action="https://kmlakmla.herokuapp.com" target="_blank" method="GET">
-				<div><input type="text" name='id' value="<? echo $id; ?>"></div>
- 			    <div><input type="submit" value="chat"></div>
+				<div><input type="text" name='id' value="<? echo $id; ?>"> <input type="submit" value="chat"> </div>
+ 			    <div></div>
 
 			</form>
 			</div>
