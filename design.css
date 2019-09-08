@@ -45,7 +45,7 @@ textarea {
   resize: none
 }
 
-.horizontal{
+.rowrow{
   display: flex;
   flex-direction: row;
   align-items: center;
