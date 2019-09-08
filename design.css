@@ -45,6 +45,13 @@ textarea {
   resize: none
 }
 
+.horizontal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .blind {
   visibility: hidden;
   overflow: hidden;
@@ -273,11 +280,4 @@ body{
 }
 .signup_text text:hover{
   border-color: gray;
-}
-
-.horizontal{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
 }
