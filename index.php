@@ -23,7 +23,11 @@
 				//contests 여기다 추가하세요
 				//
 			?>
-	
+			<p>
+			
+			</p>
+
+			<div class="general">
 			<p class="general">안녕하세요. <? echo $id; ?>님</p>
 			<p><a href='logout.php'>로그아웃</a></p>
 
@@ -39,6 +43,8 @@
  			    <div><input type="submit" value="chat"></div>
 
 			</form>
+			</div>
+			
 				
     </body>
 
