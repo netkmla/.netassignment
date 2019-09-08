@@ -40,8 +40,8 @@
           <button>익명</button>
         </a>
       </div>
-      <div class="horizontal">
-        <form class="horizontal" name="frm" action="https://kmlakmla.herokuapp.com" target="_blank" method="GET">
+      <div class="rowrow">
+        <form class="rowrow" name="frm" action="https://kmlakmla.herokuapp.com" target="_blank" method="GET">
           <div><input type="text" name='id' value="<? echo $id; ?>">  </div>
           <div> <input type="submit" value="chat"> </div>
         </form>
